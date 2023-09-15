@@ -1,0 +1,39 @@
+"use client"
+
+import { useSectionInView } from '@/lib/hooks'
+import React from 'react'
+import SectionHeading from './section-heading'
+import {MdEmail} from 'react-icons/md'
+import {motion} from 'framer-motion'
+
+const contactAnimationVariants = {
+  initial: {opacity: 0, y: 100},
+  animate: {opacity: 1, y: 0},
+}
+
+// use skills logic here
+
+export default function Contact() {
+  const {ref} = useSectionInView('Contact')
+  return (
+    <motion.section ref={ref} id='contact' variants={contactAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='z-10 scroll-mt-28 text-2xl w-[55rem] items-center justify-center'>
+      <SectionHeading> Contact Me </SectionHeading>
+      <motion.div className='!text-[1rem] p-10 h-full w-full bg-gradient-to-r from-sky-950 to-sky-700 rounded-2xl flex flex-row items-center space-x-32' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}}>
+        <div className='flex flex-col leading-[1.5rem]'>
+          <span className='text-gray-50 font-medium opacity-90'>I'm always on the lookout for exciting opportunities, feel free to send across a message!</span>
+        </div>
+        <div className='relative items-center justify-center group'>
+            <span className='relative top-2 z-[11] left-24 flex h-3 w-3 -translate-y-1 transition-all'>
+              <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-50 opacity-75'></span>
+              <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-100"></span>
+            </span>
+            <a href='mailto:f.naseer@mail.utoronto.ca' className='-translate-y-1 transition-all group-hover:bg-gradient-to-br group-hover:from-black group-hover:to-gray-900 text-gray-50 opacity-90 flex flex-row items-center justify-center bg-black rounded-2xl px-10 py-3'> 
+              <MdEmail className='stext-gray-50 h-7 w-7 opacity-90 group-hover:opacity-100 transition-all group-hover:scale-105 items-center'/>
+              
+            </a> 
+        </div>
+        
+      </motion.div>
+    </motion.section>
+  )
+}
