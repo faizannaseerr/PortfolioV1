@@ -104,3 +104,41 @@ export const skillsData = [
   "Teamwork",
   "Communication",
 ] as const;
+
+export const languagesData = [
+  "HTML",
+  "CSS",
+  "JavaScript (ES6)",
+  "TypeScript",
+  "R",
+  "C",
+  "Python",
+  "Java",
+] as const;
+
+export const frameworksData = [
+  "React",
+  "NextJS",
+  "Node",
+  "ExpressJS",
+  "Tailwind",
+  "React Native",
+  "Framer Motion",
+
+] as const;
+
+export const toolsData = [
+  "Firebase",
+  "MongoDB",
+  "Git & GitHub",
+  "Jira",
+  "Figma",
+] as const;
+
+export const softData = [
+  "Teamwork",
+  "Communication",
+  "Critical Thinking",
+  "Time Management",
+  "Organizational Skills"
+] as const;

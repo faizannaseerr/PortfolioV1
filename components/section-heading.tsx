@@ -12,9 +12,10 @@ type SectionHeadingProps = {
 
 export default function SectionHeading({children}: SectionHeadingProps) {
   return (
-    <div className='relative group'>
-      <motion.h2 variants={headingAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='text-4xl font-semibold mb-8 text-center'>{children}</motion.h2>
-      {/* <span className='absolute h-3 w-full bottom-2 bg-purple-700 -z-10 opacity-20 -rotate-1 group-hover:h-5/6 transition-all'></span> */}
+    <div className='relative group text-center flex flex-row items-baseline justify-center'>
+      {/* <span className='bg-gray-700 w-32 mx-8 h-0.5'></span> */}
+      <motion.h2 variants={headingAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='text-3xl font-semibold mb-8 block'>{children}</motion.h2>
+      {/* <span className='bg-gray-700 w-32 mx-8 h-0.5'></span> */}
     </div>
     
   )

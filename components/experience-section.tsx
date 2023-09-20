@@ -15,7 +15,7 @@ export default function ExperienceSection({title, location, description, date}: 
       
       <div className='flex flex-row justify-between items-center pb-1'>
         <span className='font-bold text-xl'> {title} </span>
-        <span className='font-bold text-xl opacity-80 group-hover:animate-pulse'> {date} </span>
+        <span className='font-bold text-lg opacity-80 group-hover:animate-pulse'> {date} </span>
       </div>
       <span className='text-sm pb-16'> {location}</span>
       <div className='flex flex-row'>

@@ -29,10 +29,8 @@ export default function Contact() {
             </span>
             <a href='mailto:f.naseer@mail.utoronto.ca' className='-translate-y-1 transition-all group-hover:bg-gradient-to-br group-hover:from-black group-hover:to-gray-900 text-gray-50 opacity-90 flex flex-row items-center justify-center bg-black rounded-2xl px-10 py-3'> 
               <MdEmail className='stext-gray-50 h-7 w-7 opacity-90 group-hover:opacity-100 transition-all group-hover:scale-105 items-center'/>
-              
             </a> 
         </div>
-        
       </motion.div>
     </motion.section>
   )

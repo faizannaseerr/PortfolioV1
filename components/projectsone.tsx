@@ -8,17 +8,17 @@ import { useSectionInView } from '@/lib/hooks'
 import ProjectOne from './projectone'
 
 
-export default function Projects() {
+export default function ProjectsOne() {
   const {ref} = useSectionInView('Projects', 0.5)
 
   return (
     <section ref={ref} id="projects" className='scroll-mt-28 mb-28'>
       <SectionHeading>Projects</SectionHeading>
-      <div className='grid grid-cols-1 gap-8 items-center justify-center'>
+      <div className='flex flex-row gap-4 flex-nowrap items-center justify-center overflow-x-auto'>
         {
           projectsData.map((project, index) => (
             <React.Fragment key={index}>
-              <Project {...project}/>
+              <ProjectOne {...project}/>
             </React.Fragment>
           ))
         }

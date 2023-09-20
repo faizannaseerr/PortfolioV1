@@ -6,6 +6,9 @@ import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
 import ExperienceOne from "@/components/experienceone";
+import SkillsOne from "@/components/skillsone";
+import SkillsTwo from "@/components/skillstwo";
+import ProjectsOne from "@/components/projectsone";
 
 
 export default function Home() {
@@ -14,8 +17,11 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
+      {/* <ProjectsOne/> */}
       <Projects />
-      <Skills />
+      <SkillsOne/>
+      {/* <Skills /> */}
+      {/* <SkillsTwo/> */}
       {/* <Experience /> */}
       <ExperienceOne/>
       <Contact />
