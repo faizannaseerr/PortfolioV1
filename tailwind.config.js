@@ -32,7 +32,7 @@ module.exports = {
       },
       animation: {
         draw: "draw 20s ease",
-        "spin-slow": "spin 0.3s linear",
+        "spin-slow": "spin 0.6s linear",
         marquee: "marquee 20s linear infinite",
         marquee2: "marquee2 20s linear infinite",
       },

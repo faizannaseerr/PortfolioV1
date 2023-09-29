@@ -16,7 +16,7 @@ const contactAnimationVariants = {
 export default function Contact() {
   const {ref} = useSectionInView('Contact')
   return (
-    <motion.section ref={ref} id='contact' variants={contactAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='z-10 scroll-mt-28 text-2xl w-[55rem] items-center justify-center'>
+    <motion.section ref={ref} id='contact' variants={contactAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='z-10 scroll-mt-28 text-2xl w-[55rem] items-center justify-center mb-12'>
       <SectionHeading> Contact Me </SectionHeading>
       <motion.div className='!text-[1rem] p-10 h-full w-full bg-gradient-to-r from-sky-950 to-sky-700 rounded-2xl flex flex-row items-center space-x-32' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}}>
         <div className='flex flex-col leading-[1.5rem]'>
@@ -32,6 +32,8 @@ export default function Contact() {
             </a> 
         </div>
       </motion.div>
+
+      {/* <p className="text-gray-700 justify-center text-sm mt-6 mb-2 flex flex-row gap-2"> Created by Faizan Naseer</p> */}
     </motion.section>
   )
 }

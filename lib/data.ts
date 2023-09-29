@@ -4,6 +4,10 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import f1Logo from "@/public/image.avif"
+import uoft from "@/public/ttt.png"
+import dc from "@/public/dogscats.webp"
+import pf from '@/public/web.png'
 
 export const links = [
   {
@@ -57,28 +61,28 @@ export const projectsData = [
     description:
       "An app that allows students to generate a degree timetable based on prerequisites, course information of their desirable courses.",
     tags: ["Android Studio", "Java", "Git", "Firebase", "Jira"],
-    imageUrl: corpcommentImg,
+    imageUrl: uoft,
   },
   {
     title: "Animal Classifier",
     description:
       "A program that implements a neural network to recognize images of cats and dogs and classify them.",
     tags: ["Python", "Numpy", "Scikit-Learn"],
-    imageUrl: rmtdevImg,
+    imageUrl: dc,
   },
   {
     title: "Driver Statistics",
     description:
       "Web scraping program that displays F1 statistics from the internet on the current season based on user input, e.g. standings, DNFs, wins, etc.",
     tags: ["Python", "BeautifulSoup", "Requests"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: f1Logo,
   },
   {
     title: "Personal Portfolio",
     description:
       "Website displaying info about my education, experience, and skills.",
     tags: ["React", "Tailwind", "NextJS", "Framer Motion", "HTML"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: pf,
   }
 ] as const;
 

@@ -9,12 +9,12 @@ import ProjectOne from './projectone'
 
 
 export default function ProjectsOne() {
-  const {ref} = useSectionInView('Projects', 0.5)
+  const {ref} = useSectionInView('Projects', 0.25)
 
   return (
     <section ref={ref} id="projects" className='scroll-mt-28 mb-28'>
       <SectionHeading>Projects</SectionHeading>
-      <div className='flex flex-row gap-4 flex-nowrap items-center justify-center overflow-x-auto'>
+      <div className='grid grid-cols-1 gap-8 mt-8 items-center justify-center'>
         {
           projectsData.map((project, index) => (
             <React.Fragment key={index}>
