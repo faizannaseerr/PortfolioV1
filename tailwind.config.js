@@ -43,8 +43,8 @@ module.exports = {
         },
         extend: {
           "0%, 100%": { transform: "scale(0.25) translateY(0%)" },
-          "25%, 75%": { transform: "scale(0.75) translateY(25%)" },
-          "50%": { transform: "scale(1.25) translateY(50%)" },
+          "25%, 75%": { transform: "scale(0.75) translateY(12%)" },
+          "50%": { transform: "scale(1.25) translateY(25%)" },
         },
       },
       animation: {
