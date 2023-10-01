@@ -27,6 +27,7 @@ export default function Experience() {
                 borderRight: '0.4rem solid #9ca3a5'
               }}
               date={experience.date}
+
               iconStyle={{
                 background: 'white',
                 fontSize: '1.5rem'

@@ -17,8 +17,8 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      {/* <ProjectsOne/> */}
-      <Projects />
+      <ProjectsOne/>
+      {/* <Projects /> */}
       <SkillsOne/>
       {/* <Skills /> */}
       {/* <SkillsTwo/> */}

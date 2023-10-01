@@ -11,6 +11,14 @@ import {HiDownload} from 'react-icons/hi'
 import { useSectionInView } from '@/lib/hooks'
 import uoft from "@/public/uoft.png"
 
+//tasks
+// 1. fix transitions for landing page -----✓✓✓✓✓-----
+// 2. add uoft picture in between thing later ig
+// 3. add one animation on website later ig
+// 4. update all of this on vercel & then 
+// 5. make the background gradient move -----✓✓✓✓✓-----
+// 6. add github and depoyment icons for projects
+
 export default function Intro() {
   const {ref} = useSectionInView('Home', 0.5)
   
@@ -45,10 +53,10 @@ export default function Intro() {
           <a className='cursor-pointer group bg-white px-7 py-3 flex items-center justify-center rounded-full gap-2 outline-none hover:shadow-sm hover:scale-105 active:scale-102 transition-all border border-black/10' href='/CV.pdf' download> My Résumé <HiDownload className='opacity-60 group-hover:-translate-x-2 transition group-hover:animate-bounce'/> </a>
           {/* <a className='cursor-pointer group p-4 flex items-center justify-center gap-2 hover:scale-105 active:scale-102 transition-all' href='/CV.pdf' download> My Résumé <HiDownload className='opacity-60 group-hover:translate-x-1 transition group-hover:animate-bounce'/> </a> */}
 
-          <a className='cursor-pointer group bg-white p-4 text-gray-700 flex items-center justify-center rounded-full gap-2 hover:shadow-sm hover:text-gray-950 hover:scale-105 active:scale-105 transition-all border border-black/10' href="https://www.linkedin.com/in/faizan-naseerr/" target="_blank"> <BsLinkedin className='group-hover:animate-spin-slow'/> </a>
+          <a className='cursor-pointer group bg-white p-4 text-gray-700 flex items-center justify-center rounded-full gap-2 hover:shadow-sm hover:text-gray-950 hover:scale-105 active:scale-105 transition-all border border-black/10' href="https://www.linkedin.com/in/faizan-naseerr/" target="_blank"> <BsLinkedin className=''/> </a>
           {/* <a className='cursor-pointer group p-4 text-gray-700 flex items-center justify-center gap-2 hover:text-gray-950 hover:scale-105 active:scale-105 transition-all' href="https://www.linkedin.com/in/faizan-naseerr/" target="_blank"> <BsLinkedin className=''/> </a> */}
 
-          <a className='cursor-pointer group bg-white p-4 text-gray-700 flex items-center justify-center rounded-full gap-2 hover:shadow-sm hover:text-gray-950 hover:scale-105 active:scale-105 transition-all border border-black/10' href="https://github.com/faizannaseerr" target="_blank"> <BsGithub className='group-hover:animate-spin-slow'/> </a>
+          <a className='cursor-pointer group bg-white p-4 text-gray-700 flex items-center justify-center rounded-full gap-2 hover:shadow-sm hover:text-gray-950 hover:scale-105 active:scale-105 transition-all border border-black/10' href="https://github.com/faizannaseerr" target="_blank"> <BsGithub className=''/> </a>
           {/* <a className='cursor-pointer group p-4 text-gray-700 flex items-center justify-center gap-2 hover:text-gray-950 hover:scale-105 active:scale-105 transition-all' href="https://github.com/faizannaseerr" target="_blank"> <BsGithub className=''/> </a> */}
         </motion.div>
       </section>
