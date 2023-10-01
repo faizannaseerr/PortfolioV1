@@ -42,9 +42,9 @@ module.exports = {
           "100%": { transform: "translate(0px, 0px)" },
         },
         extend: {
-          "0%, 100%": { transform: "scale(0.25) translateX(0%)" },
+          "0%, 100%": { transform: "scale(0.25) translateY(25%)" },
           "25%, 75%": { transform: "scale(0.75) translateX(25%)" },
-          "50%": { transform: "scale(1.25) translateX(-50%)" },
+          "50%": { transform: "scale(1.25) translateX(0%)" },
         },
       },
       animation: {
