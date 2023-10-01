@@ -53,8 +53,8 @@ module.exports = {
         marquee: "marquee 20s linear infinite",
         marquee2: "marquee2 20s linear infinite",
         "move-slow": "move 5s infinite ease-in-out",
-        "extend-slow-1": "extend 4s infinite linear",
-        "extend-slow-2": "extend 5s infinite linear",
+        "extend-slow-1": "extend 6s infinite linear",
+        "extend-slow-2": "extend 7s infinite linear",
       },
       fontFamily: {
         bitter: ["Bitter", "sans-serif"],
