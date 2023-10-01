@@ -42,9 +42,9 @@ module.exports = {
           "100%": { transform: "translate(0px, 0px)" },
         },
         extend: {
-          "0%, 100%": { transform: "scale(0.5) translateY(0%)" },
-          "25%, 75%": { transform: "scale(1) translateY(12%)" },
-          "50%": { transform: "scale(1.5) translateY(25)" },
+          "0%, 100%": { transform: "scale(0.25) translateY(0%)" },
+          "25%, 75%": { transform: "scale(0.75) translateY(25%)" },
+          "50%": { transform: "scale(1.25) translateY(50%)" },
         },
       },
       animation: {
@@ -53,8 +53,8 @@ module.exports = {
         marquee: "marquee 20s linear infinite",
         marquee2: "marquee2 20s linear infinite",
         "move-slow": "move 5s infinite ease-in-out",
-        "extend-slow-1": "extend 5s infinite linear",
-        "extend-slow-2": "extend 6s infinite linear",
+        "extend-slow-1": "extend 4s infinite linear",
+        "extend-slow-2": "extend 5s infinite linear",
       },
       fontFamily: {
         bitter: ["Bitter", "sans-serif"],
