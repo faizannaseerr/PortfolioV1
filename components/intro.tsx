@@ -36,7 +36,7 @@ export default function Intro() {
         </div>
 
         <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.4}}>
-          <span className='font-bold group text-[3.5rem] block pl-12 hover:cursor-pointer'> Hello, I'm Faizan. <span className='group-hover:opacity-100 opacity-0 text-[3.5rem] transition-all'>👋🏼</span></span> I'm a junior at the {" "}
+          <span className='font-bold group text-[3.5rem] block pl-12 hover:cursor-pointer'> Hello, I'm Faizan. <span className='group-hover:opacity-100 opacity-0 text-[3.5rem] transition-all'>👋🏼</span></span> I am a junior at the {" "}
           <a href='https://www.utoronto.ca' target='_blank' className=' font-bold text-sky-900 transition-all hover:text-sky-950'>University of Toronto</a>
           {/* <a href='https://www.utoronto.ca' target='_blank' className='font-bold bg-gradient-to-r from-sky-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-sky-900 hover:border-2 hover:border-black to-cyan-700 hover:from-white hover:to-white'>University of Toronto</a> */}
           {/* <a href='https://www.manchester.ac.uk' target='_blank' className='font-bold bg-gradient-to-r from-purple-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-purple-900 hover:border-2 hover:border-black to-violet-800 hover:from-white hover:to-white'>University of Manchester</a>  */}
