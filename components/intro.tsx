@@ -41,7 +41,7 @@ export default function Intro() {
           {/* <a href='https://www.utoronto.ca' target='_blank' className='font-bold bg-gradient-to-r from-sky-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-sky-900 hover:border-2 hover:border-black to-cyan-700 hover:from-white hover:to-white'>University of Toronto</a> */}
           {/* <a href='https://www.manchester.ac.uk' target='_blank' className='font-bold bg-gradient-to-r from-purple-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-purple-900 hover:border-2 hover:border-black to-violet-800 hover:from-white hover:to-white'>University of Manchester</a>  */}
           {/* <a href='https://www.manchester.ac.uk' target='_blank' className=' font-bold text-purple-900 transition-all hover:text-purple-950'>University of Manchester</a> */}
-          {" "} , pursuing an undergraduate computer science degree. My interests encompass a blend of design, development, and artificial intelligence.
+          , pursuing an undergraduate computer science degree. My interests encompass a blend of design, development, and artificial intelligence.
         </motion.p>
 
 
