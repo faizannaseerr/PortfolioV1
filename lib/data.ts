@@ -3,6 +3,8 @@ import f1Logo from "@/public/image.avif"
 import uoft from "@/public/ttt.png"
 import dc from "@/public/dogscats.webp"
 import pf from '@/public/web.png'
+import cms from "@/public/cms.png"
+import game from "@/public/game.png"
 
 export const links = [
   {
@@ -52,9 +54,15 @@ export const projectsData = [
   {
     title: "Timeline Generator",
     description:
-      "An app that allows students to generate a degree timetable based on prerequisites, course information of their desirable courses.",
+      "An app that allows students to generate a degree timetable based on prerequisites of their desirable courses, as well as allows admins to edit, delete, and add courses.",
     tags: ["Android Studio", "Java", "Git", "Firebase", "Jira"],
     imageUrl: uoft,
+  },
+  {
+    title: "Content Creation App",
+    description: "Developed a content management system that utilizes authorization and allows users to create, edit and delete content.",
+    tags: ["React", "Tailwind", "JWT", "Node", "Express", "MongoDB", "AWS EC2"],
+    imageUrl: cms,
   },
   {
     title: "Animal Classifier",
@@ -76,6 +84,12 @@ export const projectsData = [
       "Website displaying info about my education, experience, and skills.",
     tags: ["React", "Tailwind", "NextJS", "Framer Motion", "HTML"],
     imageUrl: pf,
+  },
+  {
+    title: "Block Evade",
+    description: "Developed a dynamic 2D game using MIPS assembly language, through pixel mapping and connecting to a MARS bitmap display.",
+    tags: ["MIPS Assembly", "MARS Bitmap Display"],
+    imageUrl: game,
   }
 ] as const;
 
