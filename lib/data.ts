@@ -86,7 +86,7 @@ export const projectsData = [
     imageUrl: pf,
   },
   {
-    title: "Block Evade",
+    title: "Pixel Peril",
     description: "Developed a dynamic 2D game using MIPS assembly language, through pixel mapping and connecting to a MARS bitmap display.",
     tags: ["MIPS Assembly", "MARS Bitmap Display"],
     imageUrl: game,
