@@ -13,7 +13,7 @@ export default function Delay({children} : {children: React.ReactNode}) {
   useEffect(() => { 
     const timeout = setTimeout(() => { 
       setShowComponent(true); 
-    }, 2100); 
+    }, 1600); 
  
     return () => clearTimeout(timeout); 
   }, []); 
