@@ -8,6 +8,7 @@ import Link from "next/link"
 import {BsArrowRight, BsGithub, BsLinkedin} from 'react-icons/bs'
 import {HiDownload} from 'react-icons/hi'
 import { useSectionInView } from '@/lib/hooks'
+import {useActiveSectionContext} from '@/context/active-section-context'
 
 //tasks
 // 1. fix transitions for landing page -----✓✓✓✓✓-----
@@ -19,6 +20,7 @@ import { useSectionInView } from '@/lib/hooks'
 
 export default function Intro() {
   const {ref} = useSectionInView('Home', 0.5)
+  const {activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext()
   
   return (
     <div className='flex flex-column'>
@@ -44,7 +46,10 @@ export default function Intro() {
 
 
         <motion.div className='flex justify-center items-center gap-2 px-4 text-md font-medium flex-col sm:flex-row' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.5}}>
-          <Link href="#contact" className='cursor-pointer group bg-gray-900 text-white px-7 py-3 flex items-center justify-center  hover:shadow-sm rounded-full gap-2 outline-none hover:scale-105 hover:bg-gray-950 active:scale-102 transition-all'> Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/></Link>
+          <Link href="#contact" onClick={() => {
+              setActiveSection("Contact")
+              setTimeOfLastClick(Date.now)
+            }}className='cursor-pointer group bg-gray-900 text-white px-7 py-3 flex items-center justify-center  hover:shadow-sm rounded-full gap-2 outline-none hover:scale-105 hover:bg-gray-950 active:scale-102 transition-all'> Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/></Link>
           {/* <Link href="#contact" className='cursor-pointer group text-gray-700 p-4 flex items-center justify-center gap-2 outline-none hover:scale-105 active:scale-102 transition-all'> Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/></Link> */}
   
           <a className='cursor-pointer group bg-white px-7 py-3 flex items-center justify-center rounded-full gap-2 outline-none hover:shadow-sm hover:scale-105 active:scale-102 transition-all border border-black/10' href='/CV.pdf' download> My Résumé <HiDownload className='opacity-60 group-hover:-translate-x-2 transition group-hover:animate-bounce'/> </a>
