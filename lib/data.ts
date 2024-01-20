@@ -57,12 +57,14 @@ export const projectsData = [
       "An app that allows students to generate a degree timetable based on prerequisites of their desirable courses, as well as allows admins to edit, delete, and add courses.",
     tags: ["Android Studio", "Java", "Git", "Firebase", "Jira"],
     imageUrl: uoft,
+    link:"https://github.com/faizannaseerr/TimelineGenerator",
   },
   {
     title: "Content Creation App",
     description: "Developed a content management system that utilizes authorization and allows users to create, edit and delete content.",
     tags: ["React", "Tailwind", "JWT", "Node", "Express", "MongoDB", "AWS EC2"],
     imageUrl: cms,
+    link:"https://cmsfend.vercel.app/"
   },
   {
     title: "Animal Classifier",
@@ -70,6 +72,7 @@ export const projectsData = [
       "A program that implements a neural network to recognize images of cats and dogs and classify them.",
     tags: ["Python", "Numpy", "Scikit-Learn"],
     imageUrl: dc,
+    link: "https://github.com/faizannaseerr/AnimalClassifer/",
   },
   {
     title: "Driver Statistics",
@@ -77,6 +80,7 @@ export const projectsData = [
       "Web scraping program that displays F1 statistics from the internet on the current season based on user input, e.g. standings, DNFs, wins, etc.",
     tags: ["Python", "BeautifulSoup", "Requests"],
     imageUrl: f1Logo,
+    link: "https://github.com/faizannaseerr/DriverStatistics",
   },
   {
     title: "Personal Portfolio",
@@ -84,12 +88,14 @@ export const projectsData = [
       "Website displaying info about my education, experience, and skills.",
     tags: ["React", "Tailwind", "NextJS", "Framer Motion", "HTML"],
     imageUrl: pf,
+    link: "https://faizannaseer.vercel.app"
   },
   {
     title: "Pixel Peril",
     description: "Developed a dynamic 2D game using MIPS assembly language, through pixel mapping and connecting to a MARS bitmap display.",
     tags: ["MIPS Assembly", "MARS Bitmap Display"],
     imageUrl: game,
+    link: "https://github.com/faizannaseerr/ProjectB58",
   }
 ] as const;
 

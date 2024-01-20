@@ -11,7 +11,8 @@ export default function ProjectOne({
   title,
   description,
   tags,
-  imageUrl
+  imageUrl,
+  link
 }: ProjectProps) {
 
   const ref = useRef<HTMLDivElement>(null)
@@ -33,7 +34,10 @@ export default function ProjectOne({
     <motion.div ref={ref} initial='initial' whileInView='animate' viewport={{once: true}} variants={projectAnimationVariants} transition={{delay: 0.6}} className=''>
       <section className='flex-col flex max-w-[30rem] group'>
         {/* <div className='p-8 border-2 border-gray-800 rounded-xl group-hover:p-4 transition-all'> */}
-          <Image className='relative rounded-xl backdrop-blur-xl bg-white/30 transition-all opacity-5 hover:opacity-100' src={imageUrl} alt={title} quality={95}/>
+          <a href={link} target="_blank">
+            <Image className='relative rounded-xl backdrop-blur-xl bg-white/30 transition-all opacity-5 hover:opacity-100' src={imageUrl} alt={title} quality={95}/>
+          </a>
+          
         {/* </div> */}
         
         
