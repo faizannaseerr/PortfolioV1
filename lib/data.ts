@@ -83,14 +83,6 @@ export const projectsData = [
     link: "https://github.com/faizannaseerr/DriverStatistics",
   },
   {
-    title: "Personal Portfolio",
-    description:
-      "Website displaying info about my education, experience, and skills.",
-    tags: ["React", "Tailwind", "NextJS", "Framer Motion", "HTML"],
-    imageUrl: pf,
-    link: "https://faizannaseer.vercel.app"
-  },
-  {
     title: "Pixel Peril",
     description: "Developed a dynamic 2D game using MIPS assembly language, through pixel mapping and connecting to a MARS bitmap display.",
     tags: ["MIPS Assembly", "MARS Bitmap Display"],
