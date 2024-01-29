@@ -5,6 +5,7 @@ import dc from "@/public/dogscats.webp"
 import pf from '@/public/web.png'
 import cms from "@/public/cms.png"
 import game from "@/public/game.png"
+import AuIn from "@/public/auin.png"
 
 export const links = [
   {
@@ -52,7 +53,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Timeline Generator",
+    title: "Degree Design",
     description:
       "An app that allows students to generate a degree timetable based on prerequisites of their desirable courses, as well as allows admins to edit, delete, and add courses.",
     tags: ["Android Studio", "Java", "Git", "Firebase", "Jira"],
@@ -65,6 +66,13 @@ export const projectsData = [
     tags: ["React", "Tailwind", "JWT", "Node", "Express", "MongoDB", "AWS EC2"],
     imageUrl: cms,
     link:"https://cmsfend.vercel.app/"
+  },
+  {
+    title: "Audio Intellect",
+    description: "An artificially intelligent web app that allows users to record or upload recordings of meetings & lectures, and then receive summaries based on the recordings and user requirements.",
+    tags: ["Whisper-API, GPT4, React, Tailwind, HTML, Express, Node, MongoDB"],
+    imageUrl: AuIn,
+    link:"https://au-in.vercel.app"
   },
   {
     title: "Animal Classifier",
