@@ -18,7 +18,7 @@ export default function Contact() {
   return (
     <motion.section ref={ref} id='contact' variants={contactAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='z-10 scroll-mt-28 text-2xl md:max-w-[55rem] max-w-[30rem] px-4 items-center justify-center mb-12'>
       <SectionHeading> Contact Me </SectionHeading>
-      <motion.div className='!text-[1rem] p-10 h-full w-full bg-gradient-to-r from-sky-950 to-sky-700 rounded-2xl flex md:flex-row flex-col gap-8 justify-center items-center md:space-x-32' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}}>
+      <motion.div className='md:!text-[1rem] text-[0.9rem] p-10 h-full w-full bg-gradient-to-r from-sky-950 to-sky-700 rounded-2xl flex md:flex-row flex-col gap-8 justify-center items-center md:space-x-32' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}}>
         <div className='flex flex-col leading-[1.5rem]'>
           <span className='text-gray-50 text-center md:text-left font-medium opacity-90'>I'm always on the lookout for exciting opportunities, feel free to send across a message!</span>
         </div>
