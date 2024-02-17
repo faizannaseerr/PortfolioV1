@@ -35,7 +35,7 @@ export default function ProjectOne({
       <section className='flex-col flex max-w-[30rem] group'>
         {/* <div className='p-8 border-2 border-gray-800 rounded-xl group-hover:p-4 transition-all'> */}
           <a href={link} target="_blank">
-            <Image className='relative rounded-xl backdrop-blur-xl bg-white/30 transition-all opacity-5 hover:opacity-100' src={imageUrl} alt={title} quality={95}/>
+            <Image className='relative rounded-xl backdrop-blur-xl bg-white/30 transition-all md:opacity-5 md:hover:opacity-100' src={imageUrl} alt={title} quality={95}/>
           </a>
           
         {/* </div> */}
@@ -45,10 +45,10 @@ export default function ProjectOne({
         
           
         <div className='flex flex-col'>
-          <h3 className='font-bold text-2xl my-4 text-center'>{title}</h3>
+          <h3 className='font-bold sm:text-2xl text-xl my-4 text-center'>{title}</h3>
           <p className='mb-4 opacity-70 text-sm'>{description}</p>
-          <div className='flex flex-row'>
-            <p className='text-sm font-semibold mr-2'>Technologies:</p>
+          <div className='flex flex-row sm:visible invisible'>
+            <p className='text-sm sm:font-semibold font-medium mr-2'>Technologies:</p>
             <ul className='flex flex-row gap-2 flex-wrap text-sm'>{tags.map((tag, index) => (
                 <li className='hover:border-sky-900 hover:border-b-2 hover:pb-[0.125rem] transition-all' key={index}>{tag}</li>)
               )}

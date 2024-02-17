@@ -22,7 +22,7 @@ export default function ExperienceOne() {
   return (
     <motion.section ref={ref} id='experience' variants={experienceAnimationVariants} initial='initial' whileInView='animate' transition={{delay: 0.175, duration: 0.6}} viewport={{once: true}} className='scroll-mt-28 mb-28 w-[55rem] sm:mb-40 items-center justify-center'>
       <SectionHeading>Experience</SectionHeading>
-      <div className='grid grid-cols-2 gap-4 items-center justify-center'>
+      <div className='grid sm:grid-cols-2 grid-cols-1 sm:px-0 px-4 sm:gap-4 gap-8 items-center justify-center'>
         {
           experiencesData.map((experience, index) => (
             <React.Fragment key={index}>
