@@ -12,12 +12,12 @@ const skillsHeadAnimationVariants = {
 }
 
 export default function SkillsOne() {
-  const {ref} = useSectionInView('Skills')
+  const {ref} = useSectionInView('Skills', 0.5)
   
 
   
   return (
-    <section ref={ref} id='skills' className='mb-28 max-w-[80rem] justify-center text-center scroll-mt-28 sm:mb-40'>
+    <section ref={ref} id='skills' className='mb-28 md:max-w-[80rem] max-w-[40rem] justify-center text-center scroll-mt-28 sm:mb-40'>
       <SectionHeading>Skills</SectionHeading>
       <div className='flex flex-row gap-12 pl-12'>
         <div className='flex flex-col gap-2 items-start'>
