@@ -24,12 +24,12 @@ export default function Contact() {
         </div>
 
         <div className='group'>
-          <span className='relative top-2 z-[11] left-24 flex h-3 w-3 -translate-y-1 transition-all'>
+          <span className='relative md:top-2 z-[11] md:left-24 top-2 left-[83px] flex md:h-3 md:w-3 h-2.5 w-2.5 -translate-y-1 transition-all'>
             <span className='animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-50 opacity-75'></span>
-            <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-100"></span>
+            <span className="relative inline-flex rounded-full md:h-3 md:w-3 h-2.5 w-2.5 bg-gray-100"></span>
           </span>
-          <a href='mailto:f.naseer@mail.utoronto.ca' className='-translate-y-1 transition-all group-hover:bg-gradient-to-br group-hover:from-black group-hover:to-gray-900 text-gray-50 opacity-90 flex flex-row items-center justify-center bg-black rounded-2xl px-10 py-3'> 
-            <MdEmail className='text-gray-50 h-7 w-7 opacity-90 group-hover:opacity-100 transition-all group-hover:scale-105 items-center'/>
+          <a href='mailto:f.naseer@mail.utoronto.ca' className='-translate-y-1 transition-all group-hover:bg-gradient-to-br group-hover:from-black group-hover:to-gray-900 text-gray-50 opacity-90 flex flex-row items-center justify-center bg-black rounded-2xl md:px-10 px-9 py-3'> 
+            <MdEmail className='text-gray-50 md:h-7 md:w-7 h-5 w-5 opacity-90 group-hover:opacity-100 transition-all group-hover:scale-105 items-center'/>
           </a> 
 
         </div>
