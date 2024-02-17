@@ -1413,6 +1413,10 @@ video {
   padding-left: 2.25rem;
   padding-right: 2.25rem;
 }
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
 .pb-1 {
   padding-bottom: 0.25rem;
 }

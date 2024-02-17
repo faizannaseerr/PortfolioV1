@@ -11,7 +11,7 @@ type ExperienceProps = typeof experiencesData[number]
 
 export default function ExperienceSection({title, location, description, date}: ExperienceProps) {
   return (
-    <motion.div className='bg-gradient-to-r group from-slate-950 to-slate-700 cursor-pointer transition-opacity flex flex-col space-between md:h-full md:w-full sm:max-h-[40rem] sm:max-w-[40rem] text-gray-50 rounded-2xl md:p-5 px-2 py-4'>
+    <motion.div className='bg-gradient-to-r group from-slate-950 to-slate-700 cursor-pointer transition-opacity flex flex-col space-between md:h-full md:w-full sm:max-h-[40rem] sm:max-w-[40rem] text-gray-50 rounded-2xl md:p-5 px-2 py-6'>
       <div className='flex flex-col sm:text-left text-center sm:justify-between justify-center'>
         <div className='flex sm:flex-row flex-col justify-between items-center pb-1'>
           <span className='font-bold md:text-xl text-lg'> {title} </span>
