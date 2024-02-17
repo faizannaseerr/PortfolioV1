@@ -48,8 +48,8 @@ module.exports = {
         },
       },
       animation: {
-        draw: "draw 16s ease",
-        "spin-slow": "spin 0.4s linear",
+        draw: "draw 5s ease",
+        "spin-slow": "spin 1s linear",
         marquee: "marquee 20s linear infinite",
         marquee2: "marquee2 20s linear infinite",
         "move-slow": "move 5s infinite ease-in-out",

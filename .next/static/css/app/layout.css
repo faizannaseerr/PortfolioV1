@@ -700,9 +700,6 @@ video {
 .mt-8 {
   margin-top: 2rem;
 }
-.mb-20 {
-  margin-bottom: 5rem;
-}
 .block {
   display: block;
 }
@@ -787,9 +784,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-auto {
-  width: auto;
-}
 .max-w-\[30rem\] {
   max-width: 30rem;
 }
@@ -807,12 +801,6 @@ video {
 }
 .max-w-\[80rem\] {
   max-width: 80rem;
-}
-.max-w-\[40rem\] {
-  max-width: 40rem;
-}
-.max-w-\[48rem\] {
-  max-width: 48rem;
 }
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
@@ -833,7 +821,7 @@ video {
   }
 }
 .animate-draw {
-  animation: draw 16s ease;
+  animation: draw 5s ease;
 }
 @keyframes extend {
 
@@ -904,6 +892,15 @@ video {
 }
 .animate-ping {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin 1s linear;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -1146,6 +1143,12 @@ video {
 .stroke-\[0\.5px\] {
   stroke-width: 0.5px;
 }
+.stroke-\[2px\] {
+  stroke-width: 2px;
+}
+.stroke-\[3px\] {
+  stroke-width: 3px;
+}
 .p-10 {
   padding: 2.5rem;
 }
@@ -1157,9 +1160,6 @@ video {
 }
 .p-8 {
   padding: 2rem;
-}
-.p-3 {
-  padding: 0.75rem;
 }
 .px-10 {
   padding-left: 2.5rem;
@@ -1197,10 +1197,6 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1221,9 +1217,6 @@ video {
 }
 .pt-4 {
   padding-top: 1rem;
-}
-.text-left {
-  text-align: left;
 }
 .text-center {
   text-align: center;
@@ -1249,8 +1242,8 @@ video {
 .text-\[0\.9rem\] {
   font-size: 0.9rem;
 }
-.text-\[3\.5rem\] {
-  font-size: 3.5rem;
+.text-\[3\.2rem\] {
+  font-size: 3.2rem;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -1263,33 +1256,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-\[3\.2rem\] {
-  font-size: 3.2rem;
-}
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
-}
-.text-\[2\.0rem\] {
-  font-size: 2.0rem;
-}
-.text-\[2\.1rem\] {
-  font-size: 2.1rem;
-}
-.text-\[2\.8rem\] {
-  font-size: 2.8rem;
-}
-.text-\[2\.6rem\] {
-  font-size: 2.6rem;
-}
-.text-\[2\.4rem\] {
-  font-size: 2.4rem;
-}
-.text-\[2\.2rem\] {
-  font-size: 2.2rem;
-}
-.text-\[2\.3rem\] {
-  font-size: 2.3rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1803,11 +1769,6 @@ html {
 
   .sm\:pt-28 {
     padding-top: 7rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
