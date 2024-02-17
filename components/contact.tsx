@@ -7,7 +7,7 @@ import {MdEmail} from 'react-icons/md'
 import {motion} from 'framer-motion'
 
 const contactAnimationVariants = {
-  initial: {opacity: 0, y: 100},
+  initial: {opacity: 0, y: 50},
   animate: {opacity: 1, y: 0},
 }
 

@@ -5,8 +5,11 @@
 
 
 html {
-  --line-color: #e5e7eb
+  --line-color: #e5e7eb;
+  max-width: 100%;
+  overflow-x: hidden;
 }
+
 
 @layer utilities {
   .pause {

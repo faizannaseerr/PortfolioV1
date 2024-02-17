@@ -28,14 +28,14 @@ export default function Intro() {
       <section ref={ref} id="home" className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex items-center justify-center'>
           <div className='relative'> 
-            <motion.div initial={{opacity: 0, scale: 0}} animate={{opacity: 1, scale: 1}} transition={{type: "tween", duration: 0.2, delay: 0.2}}>
+            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5, delay: 0.5}}>
               <Image src={me} alt="Faizan Portrait" width="160" height="160" quality="95" priority={true} className='bg-transparent'/>
             </motion.div>
             {/* <motion.span className='text-4xl bottom-0 right-0 absolute' initial={{opacity: 0, scale: 0}} animate={{opacity: 1, scale: 1}} transition={{type: 'spring', stiffness: 125, delay: 0.3, duration: 0.7}}> 👋🏼 </ motion.span> */}
           </div>
         </div>
 
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.4}}>
+        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl' initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.6, duration: 0.5}}>
           <span className='font-bold group text-[3.5rem] block pl-12 hover:cursor-pointer'> Hello, I'm Faizan. <span className='group-hover:opacity-100 opacity-0 text-[3.5rem] transition-all'>👋🏼</span></span> I am a junior at the {" "}
           <a href='https://www.utoronto.ca' target='_blank' className=' font-bold text-sky-900 transition-all hover:text-sky-950'>University of Toronto</a>
           {/* <a href='https://www.utoronto.ca' target='_blank' className='font-bold bg-gradient-to-r from-sky-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-sky-900 hover:border-2 hover:border-black to-cyan-700 hover:from-white hover:to-white'>University of Toronto</a> */}
@@ -45,7 +45,7 @@ export default function Intro() {
         </motion.p>
 
 
-        <motion.div className='flex justify-center items-center gap-2 px-4 text-md font-medium flex-col sm:flex-row' initial={{opacity: 0, y: 100}} animate={{opacity: 1, y: 0}} transition={{delay: 0.5}}>
+        <motion.div className='flex justify-center items-center gap-2 px-4 text-md font-medium flex-col sm:flex-row' initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.7, duration: 0.5}}>
           <Link href="#contact" onClick={() => {
               setActiveSection("Contact")
               setTimeOfLastClick(Date.now)

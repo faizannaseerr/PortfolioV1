@@ -12,7 +12,7 @@ import {motion} from 'framer-motion'
 // like the projects section, create delayed animation
 
 const experienceAnimationVariants = {
-  initial: {opacity: 0, y: 100},
+  initial: {opacity: 0, y: 50},
   animate: {opacity: 1, y: 0},
 }
 
