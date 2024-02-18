@@ -2150,6 +2150,11 @@ html, body {
     opacity: 0.05;
   }
 
+  .md\:hover\:text-gray-950:hover {
+    --tw-text-opacity: 1;
+    color: rgb(3 7 18 / var(--tw-text-opacity));
+  }
+
   .md\:hover\:opacity-100:hover {
     opacity: 1;
   }
@@ -2177,6 +2182,11 @@ html, body {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:hover\:text-gray-950:hover {
+    --tw-text-opacity: 1;
+    color: rgb(3 7 18 / var(--tw-text-opacity));
   }
 }
 
