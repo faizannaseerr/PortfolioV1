@@ -20,7 +20,7 @@ export default function ExperienceSection({title, location, description, date}: 
         <span className='text-sm sm:pb-16'> {location}</span>
       </div>
       
-      <div className='flex flex-row sm:py-0 sm:px-0 pt-8 px-8 text-left sm:text-left'>
+      <div className='flex flex-row sm:py-0 sm:px-0 pt-12 px-8 text-left sm:text-left'>
         <span className='text-sm'> {description} </span>
         <div className='opacity-0 sm:visible invisible sm:text-base text-[0rem]'>hellooooo</div>
       </div>

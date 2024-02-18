@@ -12,7 +12,7 @@ export default function ProjectsOne() {
   const {ref} = useSectionInView('Projects', 0.25)
 
   return (
-    <section ref={ref} id="projects" className='scroll-mt-28 mb-28'>
+    <section ref={ref} id="projects" className='scroll-mt-28 sm:mb-28 mb-20'>
       <SectionHeading>Projects</SectionHeading>
       <div className='grid grid-cols-1 gap-8 mt-8 items-center justify-center sm:px-0 px-4'>
         {
