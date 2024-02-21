@@ -11,7 +11,7 @@ html {
 html, body {
   max-width: 100%;
   overflow-x: hidden;
-  height: min-content;
+  height: fit-content;
 }
 
 
