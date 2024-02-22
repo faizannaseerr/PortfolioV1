@@ -23,7 +23,7 @@ export default function Intro() {
   const {activeSection, setActiveSection, setTimeOfLastClick} = useActiveSectionContext()
   
   return (
-    <div className='flex flex-column sm:mt-12'>
+    <div className='flex flex-column sm:mt-8'>
       {/* <div className='bg-gradient-to-b from-sky-800 to-cyan-700 h-100 w-60 rounded-xl'></div> */}
       <section ref={ref} id="home" className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex items-center justify-center'>
