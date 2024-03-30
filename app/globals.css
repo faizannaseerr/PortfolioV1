@@ -6,6 +6,7 @@
 
 html {
   --line-color: #e5e7eb;
+  zoom: 0.9;
 }
 
 html, body {
