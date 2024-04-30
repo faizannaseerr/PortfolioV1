@@ -45,12 +45,12 @@ export default function Intro() {
         {/* </motion.p> */}
 
         <motion.p className='mb-10 mt-4 px-4 md:text-3xl lg:text-4xl lg:max-w-[55rem] md:max-w-[40rem] text-xl font-medium !leading-[1.5]' initial={{opacity: 0}} animate={{opacity: 1}} transition={{delay: 0.7, duration: 0.3}}>
-          <span className='font-bold group md:text-[3.2rem] text-[2.2rem] block md:leading-[1.5] md:mb-0 leading-[1.2] md:pl-12 hover:cursor-pointer mb-4 text-center'> Hello, I'm Faizan. <span className='md:group-hover:opacity-100 md:visible invisible opacity-0 md:text-[3.2rem] text-[0rem] transition-all'>👋🏼</span></span> I'm a third-year student at the {" "}
+          <span className='font-bold group md:text-[3.2rem] text-[2.2rem] block md:leading-[1.5] md:mb-0 leading-[1.2] md:pl-12 hover:cursor-pointer mb-4 text-center'> Hello, I'm Faizan! <span className='md:group-hover:opacity-100 md:visible invisible opacity-0 md:text-[3.2rem] text-[0rem] transition-all'>👋🏼</span></span> I'm a third-year undergraduate student at the {" "}
           <a href='https://www.utoronto.ca' target='_blank' className=' font-bold text-sky-900 transition-all hover:text-sky-950'>University of Toronto</a>
           {/* <a href='https://www.utoronto.ca' target='_blank' className='font-bold bg-gradient-to-r from-sky-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-sky-900 hover:border-2 hover:border-black to-cyan-700 hover:from-white hover:to-white'>University of Toronto</a> */}
           {/* <a href='https://www.manchester.ac.uk' target='_blank' className='font-bold bg-gradient-to-r from-purple-800 px-3 py-1 hover:px-5 transition-all text-gray-50 rounded hover:text-purple-900 hover:border-2 hover:border-black to-violet-800 hover:from-white hover:to-white'>University of Manchester</a>  */}
           {/* <a href='https://www.manchester.ac.uk' target='_blank' className=' font-bold text-purple-900 transition-all hover:text-purple-950'>University of Manchester</a> */}
-          , studying computer science at the undergraduate level. My focus areas revolve around design, software development, and artificial intelligence.
+          studying computer science. My passion is to contribute meaningfully to software design, development, and artificial intelligence.
         </motion.p>
 
 
