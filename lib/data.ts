@@ -6,7 +6,7 @@ import pf from '@/public/web.png'
 import cms from "@/public/cms.png"
 import game from "@/public/game.png"
 import AuIn from "@/public/auin.png"
-import AndroidAssist from "@public/AndroidAssist.jpg"
+import AndroidAssist from "@/public/AndroidAssist.jpg"
 
 export const links = [
   {
