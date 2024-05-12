@@ -6,6 +6,7 @@ import pf from '@/public/web.png'
 import cms from "@/public/cms.png"
 import game from "@/public/game.png"
 import AuIn from "@/public/auin.png"
+import AndroidAssist from "@public/AndroidAssist.jpg"
 
 export const links = [
   {
@@ -73,6 +74,13 @@ export const projectsData = [
     tags: ["Whisper-API", "GPT4", "React", "Tailwind", "HTML", "Express", "Node", "MongoDB"],
     imageUrl: AuIn,
     link:"https://au-in.vercel.app"
+  },
+  {
+    title: "Android Assist",
+    description: "An application designed to assist immigrants and the elderly in maximizing the utility & comfortability of their mobile devices, through providing accessibility enhancements.",
+    tags: ["Kotlin", "Android Studio"],
+    imageUrl: AndroidAssist,
+    link: "https://github.com/faizannaseerr/AndroidAssist"
   },
   {
     title: "Animal Classifier",
