@@ -35,7 +35,7 @@ export default function ProjectOne({
       <section className='flex-col flex max-w-[30rem] group'>
         {/* <div className='p-8 border-2 border-gray-800 rounded-xl group-hover:p-4 transition-all'> */}
           <a href={link} target="_blank">
-            <Image className='relative rounded-xl max-h-[25rem] backdrop-blur-xl bg-white/30 transition-all md:opacity-20 md:hover:opacity-100' src={imageUrl} alt={title} quality={95}/>
+            <Image className='relative rounded-xl max-h-[25rem] object-cover backdrop-blur-xl bg-white/30 transition-all md:opacity-20 md:hover:opacity-100' src={imageUrl} alt={title} quality={95}/>
           </a>
           
         {/* </div> */}
