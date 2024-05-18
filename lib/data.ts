@@ -133,23 +133,29 @@ export const skillsData = [
 export const languagesData = [
   "HTML",
   "CSS",
-  "JavaScript (ES6)",
+  "JavaScript",
   "TypeScript",
   "R",
   "C",
   "Python",
   "Java",
+  "Kotlin",
+  "Haskell",
+  "Racket",
+  "Prolog"
 ] as const;
 
 export const frameworksData = [
   "React",
   "NextJS",
-  "Node",
+  "NodeJS",
   "ExpressJS",
   "Tailwind",
   "React Native",
   "Framer Motion",
-
+  "NumPy",
+  "Scikit-learn",
+  "Pandas"
 ] as const;
 
 export const toolsData = [
@@ -158,6 +164,10 @@ export const toolsData = [
   "Git & GitHub",
   "Jira",
   "Figma",
+  "Kubernetes",
+  "RStudio",
+  "Android Studio",
+  "AWS"
 ] as const;
 
 export const softData = [
@@ -165,5 +175,7 @@ export const softData = [
   "Communication",
   "Critical Thinking",
   "Time Management",
-  "Organizational Skills"
+  "Organizational Skills",
+  "Problem-solving",
+  "Attention to detail"
 ] as const;
