@@ -152,7 +152,6 @@ export const frameworksData = [
   "ExpressJS",
   "Tailwind",
   "React Native",
-  "Framer Motion",
   "NumPy",
   "Scikit-learn",
   "Pandas"
@@ -175,7 +174,7 @@ export const softData = [
   "Communication",
   "Critical Thinking",
   "Time Management",
-  "Organizational Skills",
+  // "Organizational Skills",
   "Problem-solving",
   "Attention to detail"
 ] as const;
