@@ -9,7 +9,7 @@ import ProjectOne from './projectone'
 
 
 export default function ProjectsOne() {
-  const {ref} = useSectionInView('Projects', 0.5)
+  const {ref} = useSectionInView('Projects', 0.7)
 
   return (
     <section ref={ref} id="projects" className='scroll-mt-28 sm:mb-28 mb-20'>
